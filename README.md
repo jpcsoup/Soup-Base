@@ -56,6 +56,18 @@ Setup Python environment for contained environments
 
 https://brew.sh/
 
+
+## uv - Python package & project manager
+
+https://github.com/astral-sh/uv
+
+
+_Because uv handles both python version and package management, I've migrated project usage there, but if there is a reason to use the separate tools, the install information is below_
+<details>
+
+<summary>Setup for usage of pyenv and poetry</summary>
+
+
 ## Pyenv
 
 https://pypi.org/project/pyenv/
@@ -85,3 +97,4 @@ https://python-poetry.org/docs/
 brew install poetry
 poetry --version
 ```
+</details>
